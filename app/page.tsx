@@ -9,6 +9,7 @@ import {
   Settings,
 } from "lucide-react";
 import FeatureSection from "@/components/FeatureSection";
+import WhyChooseStellar from "@/components/WhyChooseStellar";
 
 export default function Home() {
   return (
@@ -67,6 +68,9 @@ export default function Home() {
 
         {/* New Dark Feature Cards */}
         <FeatureSection />
+        
+        {/* Why Choose Stellar Section */}
+        <WhyChooseStellar />
 
         {/* Quick Actions */}
         <div className="bg-white rounded-xl shadow-lg p-8">
